@@ -17,7 +17,6 @@ jobs:
        uses: ./
        id: issue_body_parser
        with:
-         template-path: .github/ISSUE_TEMPLATE/batch_data_ingestion_as_a_service_intake.md
          github_token: ${{ secrets.GITHUB_TOKEN }}
          issue_id: 1
          payload_marker: payload
